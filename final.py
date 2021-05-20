@@ -194,3 +194,10 @@ def init_sampling(sin):
             cur_word = []
     cur_prob = prob_derivation(corpus, words, occurences)
     occurences = add_count(words, occurences)
+
+    
+if __name__ == '__main__':
+    init_sampling()
+    for i = 1 to total-iters:
+        new(sampling)
+    return occurences
